@@ -43,6 +43,6 @@ public class CellPhoneApp {
         ///(this). makes it so that there is no need to write the set codeie. (cellPhone.setSerialNumber(serialNumber);)
         /// No data types needed.
         /// Example below.
-        /// CellPhone cellPhone = new CellPhone(serialNumber,model, carrier,phoneNumber,owner);
+        /// CellPhone cellPhone = new CellPhone(serialNumber,model, carrier,phoneNumber,owner.);
     }
 }
