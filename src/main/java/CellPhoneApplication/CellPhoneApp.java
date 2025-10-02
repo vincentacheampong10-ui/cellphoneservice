@@ -39,7 +39,7 @@ public class CellPhoneApp {
                 """, cellPhone.getSerialNumber(), cellPhone.getModel(), cellPhone.getCarrier(), cellPhone.getPhoneNumber(), cellPhone.getOwner());
 
   /// You can also use generate to print tostring to print instead of sout
-        /// system.out.println(cellPhone);
+        /// system.out.println(cellPhone.toString());
 
         ///(this). makes it so that there is no need to write the set codeie. (cellPhone.setSerialNumber(serialNumber);)
         /// No data types needed.
