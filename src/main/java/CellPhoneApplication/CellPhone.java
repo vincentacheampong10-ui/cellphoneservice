@@ -7,8 +7,8 @@ public class CellPhone {
     private String phoneNumber;
     private String owner;
 
-public  CellPhone(){
-}
+    public CellPhone() {
+    }
 
     public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
         this.serialNumber = serialNumber;
@@ -59,5 +59,5 @@ public  CellPhone(){
 
     }
 
-    }
+}
 

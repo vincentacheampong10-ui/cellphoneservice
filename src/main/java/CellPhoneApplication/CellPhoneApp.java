@@ -9,7 +9,6 @@ public class CellPhoneApp {
         CellPhone cellPhone = new CellPhone();
 
 
-
         System.out.println("What is the serial number?:");
         int serialNumber = scanner.nextInt();
         scanner.nextLine();
@@ -32,13 +31,14 @@ public class CellPhoneApp {
         cellPhone.setOwner(owner);
 
         System.out.printf("""
-                The serial number is %d
-                The model is of the phone is %s
-                The carrier is %s
-                The phone number is %s
-                The owner of the phone is %s
-   """,cellPhone.getSerialNumber(),cellPhone.getModel(),cellPhone.getCarrier(),cellPhone.getPhoneNumber(),cellPhone.getOwner());
+                             The serial number is %d
+                             The model is of the phone is %s
+                             The carrier is %s
+                             The phone number is %s
+                             The owner of the phone is %s
+                """, cellPhone.getSerialNumber(), cellPhone.getModel(), cellPhone.getCarrier(), cellPhone.getPhoneNumber(), cellPhone.getOwner());
 
+  /// You can also use tostring to print.
 
         ///(this). makes it so that there is no need to write the set codeie. (cellPhone.setSerialNumber(serialNumber);)
         /// No data types needed.
