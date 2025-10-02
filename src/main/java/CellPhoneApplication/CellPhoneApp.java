@@ -38,7 +38,7 @@ public class CellPhoneApp {
                              The owner of the phone is %s
                 """, cellPhone.getSerialNumber(), cellPhone.getModel(), cellPhone.getCarrier(), cellPhone.getPhoneNumber(), cellPhone.getOwner());
 
-  /// You can also use generate to print tostring to print instead of sout.
+  /// You can also use generate to print tostring to print instead of sout
         /// system.out.println(cellPhone);
 
         ///(this). makes it so that there is no need to write the set codeie. (cellPhone.setSerialNumber(serialNumber);)
